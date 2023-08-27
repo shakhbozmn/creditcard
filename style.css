@@ -3,6 +3,7 @@
     padding: 0;
     font-size: 62.5%;
     font-size: 1rem;
+    overflow-y: hidden;
 }
 
 .nav-container{
@@ -23,10 +24,15 @@ nav{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.block__img > img{
+    width: 44rem;
+    position: absolute;
+}
 .block__content{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
 }
 
 .input-grid{
